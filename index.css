@@ -1,0 +1,36 @@
+body{
+    font-size: medium;
+}
+
+p{
+    font-family: monospace;
+}
+
+.header{
+    margin: 10%;
+}
+
+.link{
+    border: 10px;
+    text-align: center;
+    
+}
+
+.crimson{
+    background-color:crimson;
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+
+h1{
+
+}
