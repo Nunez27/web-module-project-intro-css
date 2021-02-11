@@ -15,13 +15,17 @@ p{
 
 nav a{
     display: inline-block;
-    margin: 1% 1% 0% 0%;
-    padding: 1.8% 11%;
+    margin: -1% 15% 0% 2%;
+    padding: 0.8% 2%;
     text-decoration: none;
-    border: 1px solid white;
-    border-radius: 70px;
+    border: -22px solid white;
+    border-radius: 66px;
     color: white;
-    font-size: 40px;
+    font-size: 62px;
+}
+
+.nav-box {
+    margin: 1% -22% 4% 5%;
 }
 
 .title-text {
@@ -42,6 +46,7 @@ nav a{
 
 .smallText {
     text-align: center;
+    margin: 0% 0% 0% 0%;
 }
 
 .image_1 {
@@ -68,11 +73,10 @@ nav a{
 }
 
 .bottom_image {
-    border-radius: 20%;
-    width: 10%;
+    width: 107%;
     display: inline-flex;
     border: 5px solid white;
-    margin: 5% 5% 3% 49%;
+    margin: -1% -80% -2% -4%;
 }
 
 h1 {
@@ -95,3 +99,6 @@ text-size-adjust: 25%;
     padding: 10%;
 }
 
+.bottom-header {
+    margin: 1% -22% 4% 5%;
+}
