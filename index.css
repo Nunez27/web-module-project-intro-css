@@ -1,20 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 p{
     font-family: monospace;
+    font-size: 4.5rem;
+    margin: 0% 0% 0% 0%;
 }
 
 * {
     box-sizing: border-box;
+    padding: 2rem;
+    
 }
 
 nav a{
     display: inline-block;
-    margin: 1% 1%;
+    margin: 1% 1% 0% 0%;
     padding: 1.8% 11%;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 70px;
     color: white;
     font-size: 40px;
+}
+
+.title-text {
+    margin: 0% 0% 0% 0%;
 }
 
 .crimson {
@@ -35,32 +46,52 @@ nav a{
 
 .image_1 {
     border-radius: 60%;
-    width: 50%;
+    width: 25%;
+    margin: 1% -34% -15% -1%;
 }
 
 .image_2 {
+    border-radius: 20%;
+    width: 10%;
+    display: inline-flex;
+    border: 5px solid white;
+    margin: 7% -14% 2% 50%;
 
 }
 
 .image_3 {
+    border-radius: 20%;
+    width: 10%;
+    display: inline-flex;
+    border: 5px solid white;
+    margin: 5% 5% 3% 49%;
+}
 
+.bottom_image {
+    border-radius: 20%;
+    width: 10%;
+    display: inline-flex;
+    border: 5px solid white;
+    margin: 5% 5% 3% 49%;
 }
 
 h1 {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: "Chelsea Market";
 text-align: center;
-line-height: 200%;
+margin: 0% 0% 13% 11%;
+font-size: 9.5rem;
 }
 
 h2 {
 text-align: center;
 font-family: monospace;
+text-size-adjust: 25%;
 }
 
 
-.firstSection {
+.first-section {
     background-color: lightsalmon;
-    line-height: 1.5rem;
+    line-height: 6rem;
     padding: 10%;
 }
 
