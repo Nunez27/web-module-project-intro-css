@@ -1,36 +1,66 @@
-body{
-    font-size: medium;
-}
-
 p{
     font-family: monospace;
 }
 
-.header{
-    margin: 10%;
+* {
+    box-sizing: border-box;
 }
 
-.link{
-    border: 10px;
+nav a{
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 1.8% 11%;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 70px;
+    color: white;
+    font-size: 40px;
+}
+
+.crimson {
+    background: crimson;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: darkgoldenrod;
+}
+
+.smallText {
     text-align: center;
-    
 }
 
-.crimson{
-    background-color:crimson;
-    color: white;
+.image_1 {
+    border-radius: 60%;
+    width: 50%;
 }
 
-.blue{
-    background-color: blue;
-    color: white;
-}
-
-.yellow{
-    background-color: yellow;
-    color: white;
-}
-
-h1{
+.image_2 {
 
 }
+
+.image_3 {
+
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+line-height: 200%;
+}
+
+h2 {
+text-align: center;
+font-family: monospace;
+}
+
+
+.firstSection {
+    background-color: lightsalmon;
+    line-height: 1.5rem;
+    padding: 10%;
+}
+
