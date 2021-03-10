@@ -18,7 +18,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 *{
     box-sizing: border-box; /* it tells elements that they need to respect the width we've given it using this rule;*/ 
     max-width:100%; /* this tells elements to never become bigger than their parent*/
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
   }
   
   html{
@@ -133,7 +133,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
   }
   .round-image {
     display: inline-block;
-    width: 40%;
+    /* width: 40%; */
   }
   .circle {
       display: inline-block;
@@ -141,8 +141,12 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
       width: 60%;
       height: 100%;
   }
+  .round {
+      display: inline-block;
+      width: 48%;
+  }
   .title {
       display: inline-block;
-      width: 50%;
+      width: 40%;
   }
 
