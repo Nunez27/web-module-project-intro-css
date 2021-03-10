@@ -9,7 +9,123 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-size: 100%;
 	outline: 0;
 	padding: 0;
-	margin: 0;
-
+    margin: 0;
+    
 }
+
+/* General Styles */
+
+*{
+    box-sizing: border-box; /* it tells elements that they need to respect the width we've given it using this rule;*/ 
+    max-width:100%; /* this tells elements to never become bigger than their parent*/
+    border: 1px solid gray;
+  }
+  
+  html{
+    font-size: 62.5%; /* the browsers default font-size is 16px and by setting html to 62.5% then 1 rem = 10px. Since %s are a scalable unit this gives the user more control over their font size*/
+  }
+  
+  body {
+    
+    font-size:1.6rem;
+    line-height: 1.5; /* doesnt need a unit of measure; it is the font size * line height value*/
+    color: #4f4f4f;
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    letter-spacing: 3px;
+    font-family: ;
+  }
+  
+  section{
+    padding: 4% 0;
+    width:50%
+  }
+
+  footer {
+      background-color: #F9E7DC;
+      margin: 0 auto;
+  }
+
+  nav a {
+      display: inline-block;
+      width: 10%;
+      margin: 0 auto;
+      border-radius: 10px;
+      align-content: center;
+      /* background-color: #FF764E; */
+  }
+
+  footer nav a {
+      margin: 0 auto;
+  }
+  /* .middle {
+      width: 70%;
+  } */
+  .middle {
+      background-color: #DDB9A3;
+      color: white;
+      padding: 0.5% 5%;
+      width: 70%;
+      line-height: 25px;
+      margin: 0 auto;
+  }
+  .top {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+  }
+  .icons {
+      margin: 0 auto;
+  }
+  .image {
+      margin: 0 auto;
+      width: 50%;
+      padding: 0% 10%;
+  }
+  .footer-section {
+      width: 100%;
+      padding: 0% 10%;
+  }
+  .bottom-img {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0% 10%;
+  }
+
+  .nav1 {
+    background-color: #FF764E;
+    color: white;
+  }
+  .nav2 {
+      background-color: #5ED3EB;
+      color: white;
+  }
+  .nav3 {
+      background-color: #FFCD69;
+      color: white;
+  }
+
+  .round-image {
+    display: inline-block;
+    width: 40%;
+  }
+  .nav {
+      margin: 0 auto;
+  }
+
+  .circle {
+      border-radius: 210px;
+      width: 40%;
+      height: 100%;
+  }
+  .title {
+      display: inline-block;
+      width: 50%;
+  }
 
