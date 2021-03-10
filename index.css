@@ -119,14 +119,17 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
   .nav1 {
     background-color: #FF764E;
     color: white;
+    margin-left: 10%;
   }
   .nav2 {
       background-color: #5ED3EB;
       color: white;
+      margin: 0 24%;
   }
   .nav3 {
       background-color: #FFCD69;
       color: white;
+      margin-right: 10%;
   }
   .round-image {
     display: inline-block;
